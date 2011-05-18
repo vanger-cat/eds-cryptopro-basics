@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CreateFileAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CreateFileAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.mm */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* CreateFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* CreateFileViewController.m */; };
+		4006F0A713814A9800BB25AF /* CPROCSP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4006F0A613814A9800BB25AF /* CPROCSP.framework */; };
+		4006F0B313814AD600BB25AF /* config.ini in Resources */ = {isa = PBXBuildFile; fileRef = 4006F0A913814AD600BB25AF /* config.ini */; };
+		4006F0B413814AD600BB25AF /* CPCAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4006F0AA13814AD600BB25AF /* CPCAViewController.xib */; };
+		4006F0B513814AD600BB25AF /* CPROCertviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4006F0AB13814AD600BB25AF /* CPROCertviewViewController.xib */; };
+		4006F0B613814AD600BB25AF /* kis_1 in Resources */ = {isa = PBXBuildFile; fileRef = 4006F0AC13814AD600BB25AF /* kis_1 */; };
+		4006F0B713814AD600BB25AF /* license.ini in Resources */ = {isa = PBXBuildFile; fileRef = 4006F0AD13814AD600BB25AF /* license.ini */; };
+		4006F0B813814AD600BB25AF /* locale in Resources */ = {isa = PBXBuildFile; fileRef = 4006F0AE13814AD600BB25AF /* locale */; };
+		4006F0B913814AD600BB25AF /* PaneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4006F0AF13814AD600BB25AF /* PaneViewController.xib */; };
+		4006F0BA13814AD600BB25AF /* RequestSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4006F0B013814AD600BB25AF /* RequestSelectionViewController.xib */; };
+		4006F0BB13814AD600BB25AF /* RndmBioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4006F0B113814AD600BB25AF /* RndmBioViewController.xib */; };
+		4006F0BC13814AD600BB25AF /* TemplateSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4006F0B213814AD600BB25AF /* TemplateSelectionViewController.xib */; };
+		4152198E12B79AA200E4CD7A /* SignFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4152198D12B79AA200E4CD7A /* SignFile.cpp */; };
+		4152199012B79B8600E4CD7A /* CreateFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4152198F12B79B8600E4CD7A /* CreateFileViewController.xib */; };
+		4152199A12B79CC800E4CD7A /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4152199912B79CC800E4CD7A /* libiconv.dylib */; };
+		41FBF20E132290760038C564 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FBF20D132290760038C564 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CreateFileAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateFileAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CreateFileAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateFileAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* eds-experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eds-experiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* CreateFile_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateFile_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* CreateFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateFileViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* CreateFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateFileViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		4006F0A613814A9800BB25AF /* CPROCSP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CPROCSP.framework; path = ../CPROCSP.framework; sourceTree = "<group>"; };
+		4006F0A913814AD600BB25AF /* config.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = config.ini; path = ../CPROCSP.framework/Resources/config.ini; sourceTree = "<group>"; };
+		4006F0AA13814AD600BB25AF /* CPCAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CPCAViewController.xib; path = ../CPROCSP.framework/Resources/CPCAViewController.xib; sourceTree = "<group>"; };
+		4006F0AB13814AD600BB25AF /* CPROCertviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CPROCertviewViewController.xib; path = ../CPROCSP.framework/Resources/CPROCertviewViewController.xib; sourceTree = "<group>"; };
+		4006F0AC13814AD600BB25AF /* kis_1 */ = {isa = PBXFileReference; lastKnownFileType = file; name = kis_1; path = ../CPROCSP.framework/Resources/kis_1; sourceTree = "<group>"; };
+		4006F0AD13814AD600BB25AF /* license.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = license.ini; path = ../CPROCSP.framework/Resources/license.ini; sourceTree = "<group>"; };
+		4006F0AE13814AD600BB25AF /* locale */ = {isa = PBXFileReference; lastKnownFileType = folder; name = locale; path = ../CPROCSP.framework/Resources/locale; sourceTree = "<group>"; };
+		4006F0AF13814AD600BB25AF /* PaneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaneViewController.xib; path = ../CPROCSP.framework/Resources/PaneViewController.xib; sourceTree = "<group>"; };
+		4006F0B013814AD600BB25AF /* RequestSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RequestSelectionViewController.xib; path = ../CPROCSP.framework/Resources/RequestSelectionViewController.xib; sourceTree = "<group>"; };
+		4006F0B113814AD600BB25AF /* RndmBioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RndmBioViewController.xib; path = ../CPROCSP.framework/Resources/RndmBioViewController.xib; sourceTree = "<group>"; };
+		4006F0B213814AD600BB25AF /* TemplateSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TemplateSelectionViewController.xib; path = ../CPROCSP.framework/Resources/TemplateSelectionViewController.xib; sourceTree = "<group>"; };
+		4152198C12B79AA200E4CD7A /* SignFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignFile.h; sourceTree = "<group>"; };
+		4152198D12B79AA200E4CD7A /* SignFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SignFile.cpp; sourceTree = "<group>"; };
+		4152198F12B79B8600E4CD7A /* CreateFileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateFileViewController.xib; sourceTree = "<group>"; };
+		4152199912B79CC800E4CD7A /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		41FBF20D132290760038C564 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* CreateFile-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CreateFile-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				4152199A12B79CC800E4CD7A /* libiconv.dylib in Frameworks */,
+				41FBF20E132290760038C564 /* libz.dylib in Frameworks */,
+				4006F0A713814A9800BB25AF /* CPROCSP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* CreateFileViewController.h */,
+				28C286E00D94DF7D0034E888 /* CreateFileViewController.m */,
+				1D3623240D0F684500981E51 /* CreateFileAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CreateFileAppDelegate.m */,
+				4152198C12B79AA200E4CD7A /* SignFile.h */,
+				4152198D12B79AA200E4CD7A /* SignFile.cpp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* eds-experiment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				4152199912B79CC800E4CD7A /* libiconv.dylib */,
+				41FBF20D132290760038C564 /* libz.dylib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* CreateFile_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.mm */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4006F0A913814AD600BB25AF /* config.ini */,
+				4006F0AA13814AD600BB25AF /* CPCAViewController.xib */,
+				4006F0AB13814AD600BB25AF /* CPROCertviewViewController.xib */,
+				4006F0AC13814AD600BB25AF /* kis_1 */,
+				4006F0AD13814AD600BB25AF /* license.ini */,
+				4006F0AE13814AD600BB25AF /* locale */,
+				4006F0AF13814AD600BB25AF /* PaneViewController.xib */,
+				4006F0B013814AD600BB25AF /* RequestSelectionViewController.xib */,
+				4006F0B113814AD600BB25AF /* RndmBioViewController.xib */,
+				4006F0B213814AD600BB25AF /* TemplateSelectionViewController.xib */,
+				4152198F12B79B8600E4CD7A /* CreateFileViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* CreateFile-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4006F0A613814A9800BB25AF /* CPROCSP.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CreateFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CreateFile" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreateFile;
+			productName = CreateFile;
+			productReference = 1D6058910D05DD3D006BFB54 /* eds-experiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CreateFile" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CreateFile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				4152199012B79B8600E4CD7A /* CreateFileViewController.xib in Resources */,
+				4006F0B313814AD600BB25AF /* config.ini in Resources */,
+				4006F0B413814AD600BB25AF /* CPCAViewController.xib in Resources */,
+				4006F0B513814AD600BB25AF /* CPROCertviewViewController.xib in Resources */,
+				4006F0B613814AD600BB25AF /* kis_1 in Resources */,
+				4006F0B713814AD600BB25AF /* license.ini in Resources */,
+				4006F0B813814AD600BB25AF /* locale in Resources */,
+				4006F0B913814AD600BB25AF /* PaneViewController.xib in Resources */,
+				4006F0BA13814AD600BB25AF /* RequestSelectionViewController.xib in Resources */,
+				4006F0BB13814AD600BB25AF /* RndmBioViewController.xib in Resources */,
+				4006F0BC13814AD600BB25AF /* TemplateSelectionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.mm in Sources */,
+				1D3623260D0F684500981E51 /* CreateFileAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* CreateFileViewController.m in Sources */,
+				4152198E12B79AA200E4CD7A /* SignFile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CreateFile_Prefix.pch;
+				INFOPLIST_FILE = "CreateFile-Info.plist";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CreateFile_Prefix.pch;
+				INFOPLIST_FILE = "CreateFile-Info.plist";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				PRODUCT_NAME = "eds-experiment";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEAD_CODE_STRIPPING = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = "eds-experiment";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CreateFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CreateFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
